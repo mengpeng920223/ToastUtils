@@ -5,6 +5,22 @@
 - v1.2.0  未完待续...
 
 ### 使用方式
+Step 1. Add the JitPack repository to your build file
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+Step 2. Add the dependency
+```
+dependencies {
+    compile 'com.github.mengpeng920223:ToastUtils:v1.0.0'
+}
+```
 
 
 ### 初始化
