@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mengpeng.toastutils.MainActivity">
+
+    <Button
+        android:id="@+id/textView_success"
+        android:layout_width="100dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Success" />
+
+    <Button
+        android:id="@+id/textView_error"
+        android:layout_width="100dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Error" />
+
+    <Button
+        android:id="@+id/textView_default"
+        android:layout_width="100dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Default" />
+
+    <Button
+        android:id="@+id/textView_info"
+        android:layout_width="100dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Info" />
+
+    <Button
+        android:id="@+id/textView_warn"
+        android:layout_width="100dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Warn" />
+
+    <Button
+        android:id="@+id/textView_custum"
+        android:layout_width="100dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="自定义" />
+
+</LinearLayout>
