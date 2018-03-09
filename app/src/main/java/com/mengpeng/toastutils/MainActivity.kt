@@ -11,21 +11,21 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         textView_success.setOnClickListener({
-            ToastUtils.onSuccessShowToast(this, "成功toast")
+            ToastUtils.onSuccessShowToast("成功toast")
         })
 
         textView_error.setOnClickListener({
-            ToastUtils.onErrorShowToast(this, "失败toast")
+            ToastUtils.onErrorShowToast("失败toast")
         })
 
         textView_default.setOnClickListener({
-            ToastUtils.onDefaultShowToast(this, "默认toast")
+            ToastUtils.onDefaultShowToast("默认toast")
         })
         textView_warn.setOnClickListener({
-            ToastUtils.onWarnShowToast(this, "Warn toast")
+            ToastUtils.onWarnShowToast("Warn toast")
         })
         textView_info.setOnClickListener({
-            ToastUtils.onInfoShowToast(this, "Info toast")
+            ToastUtils.onInfoShowToast("Info toast")
         })
     }
 }

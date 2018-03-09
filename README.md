@@ -20,7 +20,7 @@ allprojects {
 Step 2. Add the dependency
 ```
 dependencies {
-    compile 'com.github.mengpeng920223:ToastUtils:v1.0.1'
+    compile 'com.github.mengpeng920223:ToastUtils:v1.0.2'
 }
 ```
 
@@ -31,28 +31,28 @@ dependencies {
 
 ### 成功Toast
 ```
-ToastUtils.onSuccessShowToast(context, "成功toast")
+ToastUtils.onSuccessShowToast( "成功toast")
 ```
 ### 失败Toast
 ```
-ToastUtils.onErrorShowToast(context, "失败toast")
+ToastUtils.onErrorShowToast( "失败toast")
 ```
 ### 默认Toast
 ```
-ToastUtils.onDefaultShowToast(context, "默认toast")
+ToastUtils.onDefaultShowToast( "默认toast")
 ```
 
 ### 默认没有icon Toast
 ```
-ToastUtils.onDefaultWithoutIconShowToast(context, "默认没有 icon toast")
+ToastUtils.onDefaultWithoutIconShowToast( "默认没有 icon toast")
 ```
 ### Warn Toast
 ```
-ToastUtils.onWarnShowToast(context, "Warn toast")
+ToastUtils.onWarnShowToast( "Warn toast")
 ```
 ### Info Toast
 ```
-ToastUtils.onInfoShowToast(context, "Info toast")
+ToastUtils.onInfoShowToast( "Info toast")
 ```
 
 ### 自定义Toast(建议看源码，然后选择构建方式)
