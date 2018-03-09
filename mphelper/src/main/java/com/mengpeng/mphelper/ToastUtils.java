@@ -210,6 +210,17 @@ public class ToastUtils {
                 Toast.LENGTH_SHORT, false, R.drawable.toast_default_shape);
     }
 
+    public static void onShowToast(Context context, int messageID, int iconID,
+                                   @ColorInt int textColor, int toastDrawableID) {
+        String message = context.getResources().getString(messageID);
+        showToast(context, message, iconID, textColor, Toast.LENGTH_SHORT, true, toastDrawableID);
+    }
+
+    public static void onShowToast(Context context, String message, int iconID,
+                                   @ColorInt int textColor, int toastDrawableID) {
+        showToast(context, message, iconID, textColor, Toast.LENGTH_SHORT, true, toastDrawableID);
+    }
+
 
     public static void onShowToast(Context context, String message, int iconID,
                                    @ColorInt int textColor, int duration, boolean withIcon, int toastDrawableID) {
