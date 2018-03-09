@@ -20,7 +20,7 @@ allprojects {
 Step 2. Add the dependency
 ```
 dependencies {
-    compile 'com.github.mengpeng920223:ToastUtils:v1.0.2'
+    compile 'com.github.mengpeng920223:ToastUtils:v1.0.3'
 }
 ```
 
